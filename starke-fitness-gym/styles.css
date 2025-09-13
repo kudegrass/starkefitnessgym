@@ -1,0 +1,42 @@
+.sidebar {
+    transition: all 0.3s ease;
+}
+.sidebar.collapsed {
+    width: 80px;
+}
+.sidebar.collapsed .nav-text {
+    display: none;
+}
+.sidebar.collapsed .logo-text {
+    display: none;
+}
+.sidebar.collapsed .nav-item {
+    justify-content: center;
+}
+.main-content {
+    transition: margin-left 0.3s ease;
+}
+.active-nav {
+    background-color: #3b82f6;
+    color: white !important;
+}
+.active-nav i {
+    color: white !important;
+}
+.member-photo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.payment-method-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+.printable-receipt {
+    width: 80mm;
+    background: white;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
