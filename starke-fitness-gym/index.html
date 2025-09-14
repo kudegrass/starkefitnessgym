@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stärke Fitness Gym - Management System</title>
-    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="static/favicon.ico">
     <link href="https://cdn.tailwindcss.com" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -784,53 +784,203 @@
                                                 </div>
                                             </div>
                                         </td>
-                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray提起
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Premium (12 months)</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">June 18, 2023 08:00 AM</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">June 18, 2023 10:00 AM</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">2 hours</td>
+                                        <td class="px-6 py-4 whitespace-nowrap">
+                                            <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">Checked-in</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-6 py-4 whitespace-nowrap">
+                                            <div class="flex items-center">
+                                                <div class="flex-shrink-0 h-10 w-10">
+                                                    <img class="h-10 w-10 rounded-full" src="http://static.photos/people/200x200/2" alt="">
+                                                </div>
+                                                <div class="ml-4">
+                                                    <div class="text-sm font-medium text-gray-900">Maria Santos</div>
+                                                    <div class="text-sm text-gray-500">09987654321</div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Standard (6 months)</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">June 18, 2023 09:15 AM</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">June 18, 2023 11:30 AM</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">2.25 hours</td>
+                                        <td class="px-6 py-4 whitespace-nowrap">
+                                            <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">Checked-in</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-6 py-4 whitespace-nowrap">
+                                            <div class="flex items-center">
+                                                <div class="flex-shrink-0 h-10 w-10">
+                                                    <img class="h-10 w-10 rounded-full" src="http://static.photos/people/200x200/3" alt="">
+                                                </div>
+                                                <div class="ml-4">
+                                                    <div class="text-sm font-medium text-gray-900">Pedro Reyes</div>
+                                                    <div class="text-sm text-gray-500">09991112233</div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Basic (1 month)</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">June 18, 2023 10:00 AM</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">--</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">In progress</td>
+                                        <td class="px-6 py-4 whitespace-nowrap">
+                                            <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-yellow-100 text-yellow-800">Checked-in</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="px-6 py-4 border-t border-gray-200 flex items-center justify-between">
+                            <div class="text-sm text-gray-500">
+                                Showing <span class="font-medium">1</span> to <span class="font-medium">3</span> of <span class="font-medium">42</span> check-ins
+                            </div>
+                            <div class="flex space-x-2">
+                                <button class="px-3 py-1 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">
+                                    Previous
+                                </button>
+                                <button class="px-3 py-1 border border-gray-300 rounded-md text-sm font-medium text-white bg-blue-600 hover:bg-blue-700">
+                                    1
+                                </button>
+                                <button class="px-3 py-1 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">
+                                    2
+                                </button>
+                                <button class="px-3 py-1 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">
+                                    3
+                                </button>
+                                <button class="px-3 py-1 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">
+                                    Next
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
----
+                <!-- Reports Section -->
+                <div id="reports-section" class="hidden">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-6">Reports</h2>
+                    <div class="bg-white rounded-lg shadow p-6 mb-6">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="font-bold text-lg">Generate Reports</h3>
+                            <button onclick="generateMonthlyReport()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center space-x-2">
+                                <i data-feather="download" class="w-4 h-4"></i>
+                                <span>Download Report</span>
+                            </button>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700">Report Type</label>
+                                <select class="mt-1 bg-gray-100 border border-gray-300 rounded px-3 py-2 text-sm w-full">
+                                    <option>Membership Report</option>
+                                    <option>Payment Report</option>
+                                    <option>Attendance Report</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700">Date Range</label>
+                                <select class="mt-1 bg-gray-100 border border-gray-300 rounded px-3 py-2 text-sm w-full">
+                                    <option>This Month</option>
+                                    <option>Last Month</option>
+                                    <option>This Year</option>
+                                    <option>Custom Range</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-### 2. CSS File (styles.css)
-This file contains the custom styles extracted from the `<style>` tag in the original HTML.
+                <!-- Pricing Section -->
+                <div id="pricing-section" class="hidden">
+                    <div class="flex justify-between items-center mb-6">
+                        <h2 class="text-2xl font-bold text-gray-800">Pricing Plans</h2>
+                        <button onclick="showAddPlanModal()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center space-x-2">
+                            <i data-feather="plus" class="w-4 h-4"></i>
+                            <span>Add Plan</span>
+                        </button>
+                    </div>
+                    <div class="bg-white rounded-lg shadow overflow-hidden mb-6">
+                        <div class="overflow-x-auto">
+                            <table class="min-w-full divide-y divide-gray-200">
+                                <thead class="bg-gray-50">
+                                    <tr>
+                                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Plan Name</th>
+                                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Duration</th>
+                                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Price</th>
+                                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Features</th>
+                                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="bg-white divide-y divide-gray-200">
+                                    <tr>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Basic</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">1 Month</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">₱1,500</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Gym Access, Basic Equipment</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
+                                            <button class="text-blue-600 hover:text-blue-900 mr-3">Edit</button>
+                                            <button class="text-red-600 hover:text-red-900">Delete</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Standard</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">6 Months</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">₱7,500</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Gym Access, Classes, Locker</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
+                                            <button class="text-blue-600 hover:text-blue-900 mr-3">Edit</button>
+                                            <button class="text-red-600 hover:text-red-900">Delete</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Premium</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">12 Months</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">₱12,000</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Gym Access, Classes, Locker, Personal Trainer</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
+                                            <button class="text-blue-600 hover:text-blue-900 mr-3">Edit</button>
+                                            <button class="text-red-600 hover:text-red-900">Delete</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
 
-<xaiArtifact artifact_id="14ae942b-4cd0-44e7-8ec7-7c4cbd4b061b" artifact_version_id="6fc818df-a9a4-4bb5-b24b-e1b1d48e691a" title="styles.css" contentType="text/css">
-.sidebar {
-    transition: all 0.3s ease;
-}
-.sidebar.collapsed {
-    width: 80px;
-}
-.sidebar.collapsed .nav-text {
-    display: none;
-}
-.sidebar.collapsed .logo-text {
-    display: none;
-}
-.sidebar.collapsed .nav-item {
-    justify-content: center;
-}
-.main-content {
-    transition: margin-left 0.3s ease;
-}
-.active-nav {
-    background-color: #3b82f6;
-    color: white !important;
-}
-.active-nav i {
-    color: white !important;
-}
-.member-photo {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-}
-.payment-method-icon {
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
-}
-.printable-receipt {
-    width: 80mm;
-    background: white;
-    padding: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
+                <!-- Settings Section -->
+                <div id="settings-section" class="hidden">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-6">Settings</h2>
+                    <div class="bg-white rounded-lg shadow p-6">
+                        <h3 class="font-bold text-lg mb-4">Gym Settings</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700">Gym Name</label>
+                                <input type="text" value="Stärke Fitness" class="mt-1 bg-gray-100 border border-gray-300 rounded px-3 py-2 text-sm w-full">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700">Contact Email</label>
+                                <input type="email" value="contact@starkefitness.com" class="mt-1 bg-gray-100 border border-gray-300 rounded px-3 py-2 text-sm w-full">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700">Address</label>
+                                <input type="text" value="123 Fitness St, Manila, Philippines" class="mt-1 bg-gray-100 border border-gray-300 rounded px-3 py-2 text-sm w-full">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700">Phone Number</label>
+                                <input type="text" value="+63 912 345 6789" class="mt-1 bg-gray-100 border border-gray-300 rounded px-3 py-2 text-sm w-full">
+                            </div>
+                        </div>
+                        <div class="mt-6">
+                            <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg">Save Changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
