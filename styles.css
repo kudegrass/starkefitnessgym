@@ -1,0 +1,17 @@
+body {
+    background-color: lightpink !important;
+}
+.sidebar {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+.member-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+p {
+    font-size: 24px;
+    color: green;
+}
